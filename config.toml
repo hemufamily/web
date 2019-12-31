@@ -1,0 +1,64 @@
+baseurl = ""
+languageCode = "en-us"
+title = "和睦家园"
+theme = "blackburn"
+author = "和睦家园"
+copyright = "&copy; 2019 Feng Tian"
+canonifyurls = true
+paginate = 5
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A family website for recording daily life"
+  brand = "![](/img/logo.png)" #change it in the /partials/brand.html
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "fengtian"
+  dateFormat = "02 Jan 2006"
+  # CSS name for highlight.js, 
+  # google "highlightjs styles" for new possibilities
+  highlightjs = "github"
+  
+[menu]
+  # Shown in the side menu.
+#  [[menu.main]]
+#    name = "Home"
+#    pre = "<i class='fa fa-home fa-fw'></i>"
+#    weight = 1
+#    identifier = "home"
+#    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Archives"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 3
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 4
+    identifier = "tag"
+    url = "/tags/"
+    
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  googlescholar = "citations?user=09yZAiwAAAAJ&hl=en"
+  disqus = "fengT"
+  github = "fengtian2017"
+  flickr = "154877932@N06"
+
+  
