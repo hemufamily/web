@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "和睦家园"
 theme = "blackburn"
 author = "和睦家园"
-copyright = "&copy; 2019 Feng Tian"
+copyright = "&copy; 2020 hemufamily"
 canonifyurls = true
 paginate = 5
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -17,8 +17,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   # Shown in the home page
-  subtitle = "A family website for recording daily life"
-  brand = "![](/img/logo.png)" #change it in the /partials/brand.html
+  subtitle = "For memeroy"
+  brand = "![](/img/family.jpeg)" #change it in the /partials/brand.html
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "fengtian"
   dateFormat = "02 Jan 2006"
@@ -56,9 +56,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  googlescholar = "citations?user=09yZAiwAAAAJ&hl=en"
-  disqus = "fengT"
-  github = "fengtian2017"
-  flickr = "154877932@N06"
+  #flickr = "154877932@N06"
 
   
