@@ -57,5 +57,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   #flickr = "154877932@N06"
+  flickr = "186288590@N06"
 
   
