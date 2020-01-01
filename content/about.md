@@ -4,7 +4,7 @@ sidemenu: "true"
 title: About
 ---
 
-<img src="/img/family.jpeg", width="400">
+<center><img src="/img/family.jpeg", width="500"></center>
 
 我们自2006年在大学相遇以来，一直相伴走到现在，发生了无数个美好的瞬间，曾几何时幻想着写成小说或回忆录，到现在才意识到：等到以后再要做的事是从来都不会发生的，还是要从当下着手，记录每天日常生活的瞬间。仪式感让生活有滋味，相信这种记录会让我们找回生活的乐趣和存在感。
 
