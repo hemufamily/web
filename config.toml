@@ -17,7 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   # Shown in the home page
-  subtitle = "For memeroy"
+  subtitle = "For a family life-long memeroy"
   brand = "![](/img/family.jpeg)" #change it in the /partials/brand.html
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "https-hemu-netlify-com"
@@ -41,15 +41,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     identifier = "about"
     url = "/about/"
   [[menu.main]]
-    name = "Archives"
+    name = "Post"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 3
     identifier = "post"
     url = "/post/"
   [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 4
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 4
+    weight = 5
     identifier = "tag"
     url = "/tags/"
     
