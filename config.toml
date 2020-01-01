@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   subtitle = "For memeroy"
   brand = "![](/img/family.jpeg)" #change it in the /partials/brand.html
   googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "hemufamily"
+  disqus = "https-hemu-netlify-com"
   dateFormat = "02 Jan 2006"
   # CSS name for highlight.js, 
   # google "highlightjs styles" for new possibilities
